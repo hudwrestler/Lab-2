@@ -279,7 +279,7 @@ lab2.controller('player2', function(processMove, $rootScope, $scope, $ionicModal
     }
     else if($scope.winner == 2){
       $stateParams.player2_wins ++;
-    }
+    }//testing 123
     else{
       //do nothing if a tie
     }
